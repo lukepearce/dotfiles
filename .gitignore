@@ -1,13 +1,18 @@
-# Some sensible files to ignore
-
-# Folder view configuration files
 .DS_Store
-Desktop.ini
+*.log
 
-# Thumbnail cache files
-._*
-Thumbs.db
+app/cache/
+app/composer.phar
+app/composer.lock
+app/vendor/
 
-# Files that might appear on external disks
-.Spotlight-V100
-.Trashes
+craft/app/*
+craft/storage/*
+!craft/app/Info.php
+
+public_html/assets/
+public_html/uploads/**/**
+
+node_modules/
+
+todo.txt
